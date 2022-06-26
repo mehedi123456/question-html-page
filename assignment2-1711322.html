@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#grad {
+  height: 200px;
+  background-image: url("images (3).jpg");
+  background-color: #cccccc;
+  height: 660px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+ background-image: url(images\ \(4\).jpg);
+  padding: 20px;
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BCC6CC;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #848482;
+}
+.active {
+  background-color: #b1b4b3;
+}
+</style>
+</head>
+<body id="grad" class="">
+
+
+    <ul>
+        <li><a class="active" href="#Start">Get Start</a></li>
+        <li><a href="#Feedback">Feedback</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Solutions">Solutions</a></li>
+        <li><a href="#Technology">Technology</a></li>
+        <li><a href="#Products">Products</a></li>
+      </ul>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+  <div style="text-align:center">
+    <h1>Have Some question</h1>
+    <p> <i class="fa fa-globe"></i>MOLDOVA <a href="#">Uk </a>:Strada 31 August 1989 78,Chisinau,MD-2012</p>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <img src="images (1).jpg" style="width:100%">
+    </div>
+    <div class="col-6">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Email</label>
+         <input type="text" id="Email" name="Email" placeholder="whats Your Email?">
+        <label for="subject">Question</label>
+        <textarea id="Question" name="Question" placeholder="Write Your Question?" style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
